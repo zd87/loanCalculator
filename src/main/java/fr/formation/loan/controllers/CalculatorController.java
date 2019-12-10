@@ -14,11 +14,11 @@ import fr.formation.loan.services.CalcService;
 
 @RestController
 @RequestMapping("/calculator")
-public class SimulationController {
+public class CalculatorController {
 
     private final CalcService service;
 
-    protected SimulationController(CalcService service) {
+    protected CalculatorController(CalcService service) {
 	this.service = service;
     }
 
